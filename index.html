@@ -1,1 +1,227 @@
-Hello World
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desmond's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Desmond</a>
+            </div>
+            <div class="collapse navbar-collapse myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#home">
+                            <span class="glyphicon glyphicon-home"></span> Home</a>
+                    </li>
+                    <li>
+                        <a href="#about_me">
+                            <span class="glyphicon glyphicon-info-sign"></span> About Me</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">
+                            <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <span class="glyphicon glyphicon-comment"></span> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="home">
+        <h1>Desmond</h1>
+        <h3>Stay awake, stay alive.</h3>
+        <img src="http://i2.kiimg.com/574962/497e00662d0dd335.jpg" class="img-responsive img-circle my_pic" alt="my_pic">
+        <div class="img-text">
+            <p>My name is Desmond and I graduated from Xiamen University of Technology. After graduation I had been running several Amazon stores for a year and half. I take extra interest in web development and dabble in it during my spare time. Recently I registered as a student of FreeCodeCamp in the hope of becoming a professional full-time web developer.</p>
+        </div>
+    </section>
+    <section id="about_me" class="about_me">
+        <div class="container">
+            <h1>About Me</h1>
+            <h3>Below is some of my job experience:</h3>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+  						<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">FreeCodeCamp student</a>
+  					</h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <h3>June 2017 - Present</h3>
+                            <p>In late June, I started taking FCC courses hoping to become a full-time web developer in the near future.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+  						<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">Independent Amazon seller</a>
+  					</h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h3>September 2016 - June 2017</h3>
+                            <p>I started my own Amazon selling business as an individual seller while assisting my former colleagues with their selling affairs. Apart from selling, I provided below services:</p>
+                            <ul>
+                                <li>Amazon adwords campaign research</li>
+                                <li>Product information translation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+  						<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">Overseas sales supervisor</a>
+  					</h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h3>July 2015 - September 2016</h3>
+                            <p>During this period of time I work for a small scale E-commerce company as overseas sales supervisor. My job responsibilities are as below:</p>
+                            <ul>
+                                <li>Train new employees to get familiar with the selling system.</li>
+                                <li>Teaching selling tricks to new employees on multiple selling platforms(Amazon, Alibaba, Wish, etc.)</li>
+                                <li>Find ways to promote products effectively.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+  						<a href="#collapse4" data-toggle="collapse" data-parent="#accordion"> Amazon Sales Specialist</a>
+  					</h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h3>October 2014 - June 2015</h3>
+                            <p>I work for an E-commerce company in Xiamen, China as an Amazon Sales Specialist. During these months I learned about online selling and marketing skills and was responsible for the sales of two Amazon British store.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
+        <p>Below are some of my projects.</p>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-3">
+                    <div class="well">
+                        <a href="https://codepen.io/way2fall/full/yXjqVW/" target="_blank" class="thumbnail">
+                            <img src="http://ac-HSNl7zbI.clouddn.com/XGgsbANRo8UQQSqSEymYpeRPW9BwGND0jNaAM3Ld.jpg" alt="">
+                            <h2 class="pf-headline">Random Quote Machine</h2>
+                        </a>
+                        <p class="pf-p">Click the button and a new quote is generated. Also there is a button below to tweet this quote. Note: you need VPN to make this work if in Chinese mainland.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="https://codepen.io/way2fall/full/XarNWN/" class="thumbnail">
+                            <img src="http://ac-HSNl7zbI.clouddn.com/swBQawrMin1WBN3OxajBDk0kJ37kv6J1Kjfqfn2h.jpg" alt="">
+                            <h2 class="pf-headline">Pomodora Timer</h2>
+                        </a>
+                        <p class="pf-p">Using this timer you could easily customize your own work and break time with the water bubble animation to remind you when to keep working or have a rest.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="https://codepen.io/way2fall/full/PjgLad/" class="thumbnail">
+                            <img src="http://ac-HSNl7zbI.clouddn.com/MkbQFQ1w1bongY96cf2jw5KPl2ljVJDy4iMTDnCl.jpg" alt="">
+                            <h2 class="pf-headline">Twitch TV API</h2>
+                        </a>
+                        <p class="pf-p">A Twitch online user checker with which you could check if the user is online and what he or she is streaming at the moment. </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="https://codepen.io/way2fall/full/RgqqRO/" class="thumbnail">
+                            <img src="http://ac-HSNl7zbI.clouddn.com/Um8yWKpwF53IlgrBcV0IDv9Jvh2h6z4cCmjdSFQk.jpg" alt="">
+                            <h2 class="pf-headline">Wikipedia Viewer</h2>
+                        </a>
+                        <p class="pf-p">With this wikipedia viewer you could easily search for what you would like to know. The result will show up automatically. Or you could just click for a random wiki article.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="https://codepen.io/way2fall/full/yXWgmN/" class="thumbnail">
+                            <img src="http://ac-HSNl7zbI.clouddn.com/RJzt3n2QKpeAOgwEnAknhP0PXGG0ETrPDs5GjVfM.jpg" alt="">
+                            <h2 class="pf-headline">Calculator</h2>
+                        </a>
+                        <p class="pf-p">A calculator made with javascript with which you could do simple math calculation.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="" class="thumbnail">
+                            <img src="" alt="">
+                            <h2 class="pf-headline"></h2>
+                        </a>
+                        <p class="pf-p"></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="" class="thumbnail">
+                            <img src="" alt="">
+                            <h2 class="pf-headline"></h2>
+                        </a>
+                        <p class="pf-p"></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="well">
+                        <a href="" class="thumbnail">
+                            <img src="" alt="">
+                            <h2 class="pf-headline"></h2>
+                        </a>
+                        <p class="pf-p"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h1>Contact Me</h1>
+            <div id="wechat">
+                <img src="http://i2.kiimg.com/574962/e1d1bec33c7eebf2.jpg" class="img-responsive center-block" alt="">
+                <p class="wechat text-center" href="https://web.wechat.com">Desmond's WeChat</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/way2fall" target="_blank" class="btn btn-primary center-block"><i class="fa fa-github fa-fw"></i> Github</a>
+                <a href="http://www.freecodecamp.cn/way2fall" target="_blank" class="btn btn-primary center-block"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
+                <a href="mailto:xa_yhy@163.com" class="btn btn-primary center-block"><i class="fa fa-envelope fa-fw"></i> Email me</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+    	<p>Made by Desmond All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
